@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content > * {
+    flex-basis: 100%;
+}
+
+.img-content {
+    width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+p {
+    text-align:justify;
+    margin-right: 5%;
+}
