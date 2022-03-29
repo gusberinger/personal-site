@@ -41,7 +41,7 @@ const Main = () => {
         Today my favorite movie is {selectMovie()}.
       </p>
       </div>
-      <div class="col">
+      <div className="col">
         <img className="img-content" src={waters} alt=""/>
       </div>
       {/* <Movie/> */}
