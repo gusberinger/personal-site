@@ -4,7 +4,6 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Navbar';
 import Main from './Main'
-import pdf from './files/Resume.pdf'
 
 ReactDOM.render(
   <React.StrictMode>
