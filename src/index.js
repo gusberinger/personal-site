@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './Navbar';
+import Main from './Main'
+import pdf from './files/Resume.pdf'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar/>
+    <Main></Main>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
