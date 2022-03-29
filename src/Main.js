@@ -34,7 +34,7 @@ const Main = () => {
     <div className="content">
       <div className='col'>
       <p>
-        I'm a mathematics student at the University of Minnesota Twin Cities, also completing minors in computer science and political science.   Right now I'm researching the wikipedia hyperlink graph. My favorite tools are Python, Haskell, and the Tidyverse.
+        I'm a mathematics student at the University of Minnesota Twin Cities, also completing minors in computer science and political science. Right now I'm researching the Wikipedia hyperlink graph. My favorite tools are Python, Haskell, and the Tidyverse.
       </p>
       <p>
         Today my favorite movie is {selectMovie()}.
