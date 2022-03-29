@@ -2,6 +2,7 @@ import React from 'react'
 import seedrandom from 'seedrandom'
 import './Main.css'
 import waters from './images/waters.jpeg'
+import Movie from './Movie'
 
 const movies = [
   "The Tragedy of Macbeth",
@@ -43,6 +44,7 @@ const Main = () => {
       <div class="col">
         <img className="img-content" src={waters} alt=""/>
       </div>
+      {/* <Movie/> */}
 
     </div>
   )
