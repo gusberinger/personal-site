@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav>
       <ul className='nav-container'>
         <li className="nav-item">
-          LinkedIn
+          <a href="https://www.linkedin.com/in/gusberinger/">LinkedIn</a> 
         </li>
         <li className="nav-item">
           <a href="https://www.github.com/gusberinger">Github</a>
