@@ -10,7 +10,6 @@ const Movie = ({id}) => {
 
   async function getData(id) {
     let url = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API}&i=${id}`
-    console.log(url)
     const response = await fetch(url)
     const data = await response.json()
     const { Title, Year } = data
