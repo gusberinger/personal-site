@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href={pdf} download="resume.pdf">Resume</a>
         </li>
         <li className="nav-item">
-          <a href="mailto:gusberinger">CONTACT</a>
+          <a href="mailto:gusberinger@gmail.com">CONTACT</a>
         </li>
       </ul>
     </nav>
