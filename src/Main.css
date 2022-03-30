@@ -5,6 +5,7 @@
     margin-top: 5vh;
     margin-left: 10%;
     margin-right: 10%;
+    align-items: top;
 }
 
 .content > * {
@@ -12,7 +13,7 @@
 }
 
 .img-content {
-    width: 100%;
+    width: 60%;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
