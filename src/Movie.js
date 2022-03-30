@@ -1,12 +1,25 @@
-import React from 'react'
-require("dotenv").config()
-const imdbLink = (id) => "https://www.imdb.com/title/" + id
+import React, { useEffect, useState } from 'react'
 
-const Movie = ({title, year, id}) => {
-  console.log(process.env)
+
+const Movie = ({id}) => {
+  const [data, setData] = useState({title:"The Godfather", year: "1920"})
+  
+  useEffect(() => {
+    getData(id)
+  }, [])
+
+  async function getData(id) {
+    let url = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API}&i=${id}`
+    console.log(url)
+    const response = await fetch(url)
+    const data = await response.json()
+    const { Title, Year } = data
+    setData({ title: Title, year: Year })
+  }
+
   return (
     <>
-      <a href={imdbLink(id)}>{title} ({year})</a>
+      <a href={"https://www.imdb.com/title/"+id}>{data.title} ({data.year})</a>
     </>
   )
 }
