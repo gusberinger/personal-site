@@ -3,19 +3,15 @@ import seedrandom from 'seedrandom'
 import './Main.css'
 import waters from './images/waters.jpeg'
 import Movie from './Movie'
+import movieList from './MovieList.js'
 
-const movies = [
-  "tt0068646",
-  "tt5715874",
-  "tt8772262"
-]
 
 const selectMovie = () => {
   let now = new Date()
   let today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
   let rng = seedrandom(today)
-  let n = Math.floor(rng() * movies.length)
-  return movies[n]
+  let n = Math.floor(rng() * movieList.length)
+  return movieList[n]
 }
 
 
