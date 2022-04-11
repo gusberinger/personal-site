@@ -3,9 +3,17 @@
   text-transform: uppercase;
   color: #242424;
   font-size: 8vh;
-  font-weight: 1600;
+  font-weight: 800;
   line-height: 1em;
   cursor: default;
+}
+
+header {
+  font-family: "Metropolis";
+}
+
+h1.site-title {
+  margin-bottom: 0;
 }
 
 nav {
@@ -27,7 +35,8 @@ nav {
 .nav-item {
   text-transform: uppercase;
   cursor: pointer;
-  font-size: 5vh;
+  font-size: 3vh;
+  font-weight: 300;
   color: #717171;
 }
 
@@ -45,13 +54,14 @@ li a {
   line-height: 2;
 }
 
-@media all and (max-width: 930px) {
+@media all and (max-width: 630px) {
   .nav-container {
     flex-direction: column;
     justify-content: center;
   }
 
   .nav-container > li {
-    flex-basis: 50%;
+    padding-block: .2rem;
+    flex-basis: 100%;
   }
 }
