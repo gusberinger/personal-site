@@ -37,6 +37,7 @@ p {
   display: flex;
   margin-inline: 10%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .row > .col {
@@ -48,6 +49,7 @@ header {
   margin-inline: auto;
   /* width: min(90%, 90rem); */
   max-width: 70rem;
+  padding-block: 1vh;
 }
 
 /* .img-content {
