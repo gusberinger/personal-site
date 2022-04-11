@@ -4,6 +4,7 @@ import "./Main.css";
 import waters from "./images/waters.jpeg";
 import Movie from "./Movie";
 import movieList from "./MovieList.js";
+import Footer from "./Footer"
 
 const selectMovie = () => {
   let now = new Date();
@@ -15,24 +16,46 @@ const selectMovie = () => {
 
 const Main = () => {
   return (
+    <>
     <section>
-      <div className="row">
-        <div className="col">
-          <p>
-            I'm a mathematics student at the University of Minnesota Twin
-            Cities, also completing minors in computer science and political
-            science. Right now I'm researching the Wikipedia hyperlink graph. My
-            favorite tools are Python, Haskell, and the Tidyverse.
-          </p>
-          <p>
-            Today my favorite movie is <Movie id={selectMovie()}></Movie>.
-          </p>
-        </div>
-        <div className="col">
-          <img className="img-content" src={waters} alt="" />
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <p>
+              I'm a mathematics student at the University of Minnesota Twin
+              Cities, also completing minors in computer science and political
+              science. Right now I'm researching the Wikipedia hyperlink graph. My
+              favorite tools are Python, Haskell, and the Tidyverse.
+            </p>
+            <p>
+              Today my favorite movie is <Movie id={selectMovie()}></Movie>.
+            </p>
+          </div>
+          <div className="col">
+            <img className="img-content" src={waters} alt="" />
+          </div>
         </div>
       </div>
     </section>
+    {/* <section>
+      <div className="container">
+        <h1>Projects</h1>
+        <div class="item">
+          <h3>WikiNetworks</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo rem sint excepturi tempore modi ducimus in maiores eligendi facere cupiditate!</p>
+        </div>
+        <div class="item">
+          <h3>Smiter</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repudiandae architecto fuga molestiae, necessitatibus accusamus omnis corrupti dolores voluptatem dolorem!</p>
+        </div>
+        <div class="item">
+          <h3>Letterboxd-Convert</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequatur voluptates corrupti commodi dolor iusto. Possimus sit perspiciatis animi consequuntur!</p>
+        </div>
+      </div>
+    </section> */}
+    <Footer></Footer>
+    </>
   );
 };
 
