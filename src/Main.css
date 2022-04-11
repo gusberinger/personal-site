@@ -1,5 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Inter&family=Montserrat&display=swap'); */
+
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+    url(./fonts/Metrolopis/Metropolis-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 800;
+  src: local("Metropolis"), url(./fonts/Metrolopis/Metropolis-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 900;
+  src: local("Metropolis"), url(./fonts/Metrolopis/Metropolis-Black.otf) format("opentype");
+}
+
 :root {
-  --ff-primary: "Montserrat", sans-serif;
+  --ff-primary: "Metropolis", sans-serif;
 }
 
 body {
@@ -22,7 +43,8 @@ p {
   flex-basis: 100%;
 }
 
-section {
+section,
+header {
   margin-inline: auto;
   /* width: min(90%, 90rem); */
   max-width: 70rem;

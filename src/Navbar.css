@@ -3,9 +3,13 @@
   text-transform: uppercase;
   color: #242424;
   font-size: 8vh;
-  font-weight: 1600;
+  font-weight: 800;
   line-height: 1em;
   cursor: default;
+}
+
+h1.site-title {
+  margin-bottom: 0;
 }
 
 nav {
