@@ -24,7 +24,8 @@ p {
 
 section {
   margin-inline: auto;
-  width: min(90%, 90rem);
+  /* width: min(90%, 90rem); */
+  max-width: 70rem;
 }
 
 /* .img-content {
