@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 
 const Movie = ({id}) => {
-  const [data, setData] = useState({title:"The Godfather", year: "1920"})
+  const [data, setData] = useState(null)
   
   useEffect(() => {
     getData(id)
@@ -18,7 +18,10 @@ const Movie = ({id}) => {
 
   return (
     <>
+    {
+      (data != null) &&
       <a href={"https://www.imdb.com/title/"+id}>{data.title} ({data.year})</a>
+    }
     </>
   )
 }
