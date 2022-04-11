@@ -20,13 +20,13 @@
 }
 
 :root {
-  --ff-primary: "Metropolis", sans-serif;
+  --ff-primary: "Metropolis";
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--ff-primary), sans-serif;
+  font-family: var(--ff-primary)
 }
 
 p {
@@ -63,7 +63,7 @@ img {
   vertical-align: middle;
 }
 
-@media all and (max-width: 930px) {
+@media all and (max-width: 902px) {
   .row {
     flex-direction: column;
   }
