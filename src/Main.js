@@ -23,6 +23,7 @@ const Main = () => {
         <div className="container">
           <div className="row hero">
             <div className="col">
+              <h2>About Me</h2>
               <p>
                 I'm a mathematics student at the University of Minnesota Twin
                 Cities, also completing minors in computer science and political
