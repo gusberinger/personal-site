@@ -42,7 +42,7 @@ const Main = () => {
       </section>
       <section>
         <div className="container">
-          <h1>Projects</h1>
+          <h2>Projects</h2>
           <div class="row">
             <div class="col">
               <div class="item">
