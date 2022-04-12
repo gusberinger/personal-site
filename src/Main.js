@@ -30,7 +30,7 @@ const Main = () => {
                 graph. My favorite tools are Python, Haskell, and the Tidyverse.
               </p>
               <p>
-                Today my favorite movie is <Movie id={selectMovie()}></Movie>.
+                Today my favorite movie is <Movie tconst={selectMovie()}></Movie>.
               </p>
             </div>
             <div className="col">
