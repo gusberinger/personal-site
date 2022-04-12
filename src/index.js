@@ -2,14 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Navbar';
 import Main from './Main'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar/>
     <Main></Main>
-    
   </React.StrictMode>,
   document.getElementById('root')
 );

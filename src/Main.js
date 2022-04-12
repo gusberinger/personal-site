@@ -5,6 +5,7 @@ import waters from "./images/waters.jpeg";
 import Movie from "./Movie";
 import movieList from "./MovieList.js";
 import Footer from "./Footer"
+import Navbar from "./Navbar"
 
 const selectMovie = () => {
   let now = new Date();
@@ -17,9 +18,10 @@ const selectMovie = () => {
 const Main = () => {
   return (
     <>
+    <Navbar></Navbar>
     <section>
       <div className="container">
-        <div className="row">
+        <div className="row hero">
           <div className="col">
             <p>
               I'm a mathematics student at the University of Minnesota Twin
@@ -37,23 +39,33 @@ const Main = () => {
         </div>
       </div>
     </section>
-    {/* <section>
+    <section>
       <div className="container">
         <h1>Projects</h1>
-        <div class="item">
-          <h3>WikiNetworks</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo rem sint excepturi tempore modi ducimus in maiores eligendi facere cupiditate!</p>
-        </div>
-        <div class="item">
-          <h3>Smiter</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repudiandae architecto fuga molestiae, necessitatibus accusamus omnis corrupti dolores voluptatem dolorem!</p>
-        </div>
-        <div class="item">
-          <h3>Letterboxd-Convert</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequatur voluptates corrupti commodi dolor iusto. Possimus sit perspiciatis animi consequuntur!</p>
+        <div class="row">
+          <div class="col">
+            <div class="item">
+              <h3>WikiNetworks</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo rem sint excepturi tempore modi ducimus in maiores eligendi facere cupiditate!</p>
+            </div>
+            <div class="item">
+              <h3>Smiter</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repudiandae architecto fuga molestiae, necessitatibus accusamus omnis corrupti dolores voluptatem dolorem!</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item">
+              <h3>Letterboxd-Convert</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequatur voluptates corrupti commodi dolor iusto. Possimus sit perspiciatis animi consequuntur!</p>
+            </div>
+            <div class="item">
+              <h3>SafeU Map</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt omnis, dignissimos minus nostrum alias possimus iusto necessitatibus id aliquam aliquid?</p>
+            </div>
+          </div>
         </div>
       </div>
-    </section> */}
+    </section>
     <Footer></Footer>
     </>
   );
