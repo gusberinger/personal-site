@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 
-const Movie = ({ id }) => {
+const Movie = ({ tconst }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    getData(id);
-  }, [id]);
+    getData(tconst);
+  }, [tconst]);
 
-  async function getData(id) {
-    let url = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API}&i=${id}`;
+  async function getData(tconst) {
+    let url = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API}&i=${tconst}`;
     const response = await fetch(url);
     const data = await response.json();
     const { Title, Year } = data;
@@ -18,7 +18,7 @@ const Movie = ({ id }) => {
   return (
     <>
       {data != null && (
-        <a href={"https://www.imdb.com/title/" + id}>
+        <a href={"https://www.imdb.com/title/" + tconst}>
           {data.title} ({data.year})
         </a>
       )}

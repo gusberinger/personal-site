@@ -64,4 +64,8 @@ li a {
     padding-block: .2rem;
     flex-basis: 100%;
   }
+
+  .nav-item {
+    font-size: 4vh;
+  }
 }
