@@ -68,6 +68,17 @@
   --ff-primary: "Metropolis";
 }
 
+h2 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: #434343;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -85,14 +96,24 @@ p {
 .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
   /* margin-inline: 10%; */
 }
 
-.row > .col {
+.row > * {
   flex-basis: 100%;
 }
+
+.hero > .col:nth-child(1) {
+  flex-basis: 70%;
+}
+
+.center {
+  text-align: center;
+}
+
+
 
 footer,
 section,
@@ -105,12 +126,8 @@ header {
 
 footer {
   padding-top: 100px;
+  font-weight: 200;
 }
-
-/* .img-content {
-    width: 20rem;
-    object-fit: cover;
-} */
 
 img {
   max-width: 100%;
@@ -121,9 +138,10 @@ img {
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 400;
   /* font-style: italic; */
   margin: 0;
+  font-variant: small-caps;
 }
 
 .item {
@@ -139,3 +157,4 @@ h3 {
     order: 1;
   }
 }
+
