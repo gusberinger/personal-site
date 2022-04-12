@@ -43,15 +43,15 @@ const Main = () => {
       <section>
         <div className="container">
           <h2>Projects</h2>
-          <div class="row">
-            <div class="col">
-              <div class="item">
+          <div className="row">
+            <div className="col">
+              <div className="item">
                 <h3>WikiNetworks</h3>
                 <p>
                   Network analysis of Wikipedia's hyperlink structure. The graph is created by parsing Wikipedia data dumps into a sparse matrix. Using scipy csr matrices, implemented centrality, and other graph measures. <a href="https://github.com/gusberinger/WikiNetworks">Link</a>
                 </p>
               </div>
-              <div class="item">
+              <div className="item">
                 <h3>Smiter</h3>
                 <p>
                   React App that uses form data to automatically roll damage for
@@ -59,8 +59,8 @@ const Main = () => {
                 </p>
               </div>
             </div>
-            <div class="col">
-              <div class="item">
+            <div className="col">
+              <div className="item">
                 <h3>Letterboxd-Convert</h3>
                 <p>
                   Python package that converts list of movies on Letterboxd.com,
@@ -68,7 +68,7 @@ const Main = () => {
                   cached in a local database. <a href="https://github.com/letterboxd-convert">Link</a>
                 </p>
               </div>
-              <div class="item">
+              <div className="item">
                 <h3>SafeU Map</h3>
                 <p>
                   Map of all SafeU crime notifications. Each notification
