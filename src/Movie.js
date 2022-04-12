@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Movie = ({ tconst: tconst }) => {
+const Movie = ({ tconst }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
