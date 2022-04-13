@@ -2,7 +2,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #242424;
-  font-size: 8vh;
+  font-size: 3.8rem;
   font-weight: 800;
   line-height: 1em;
   cursor: default;
@@ -68,7 +68,7 @@ nav a {
 }
 
 .nav-item:hover {
-  color: #242424;
+  color: #5d5d5d;
 }
 
 .nav-item:hover::after,
@@ -93,7 +93,4 @@ nav a {
     flex-basis: 100%;
   }
 
-  .nav-item {
-    font-size: 4vh;
-  }
 }
