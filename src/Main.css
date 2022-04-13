@@ -119,7 +119,6 @@ footer,
 section,
 header {
   margin-inline: auto;
-  /* width: min(90%, 90rem); */
   max-width: 65rem;
   padding-block: 1vh;
 }

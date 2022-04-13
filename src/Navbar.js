@@ -5,7 +5,9 @@ import pdf from "./files/Resume.pdf";
 const Navbar = () => {
   return (
     <header>
-      <h1 className="site-title">Gus Beringer</h1>
+      <div onselectstart="return false" className="background">
+        <h1 className="site-title">Gus Beringer</h1>
+      </div>
       <nav>
         <ul className="nav-container">
           <li className="nav-item">

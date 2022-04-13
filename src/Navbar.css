@@ -6,6 +6,11 @@
   font-weight: 800;
   line-height: 1em;
   cursor: default;
+  user-select: none;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
