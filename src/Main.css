@@ -68,9 +68,14 @@
   --ff-primary: "Metropolis";
   --clr--primary--400: #242424;
   --clr--accent--400: #434343;
+  --clr--accent--500: #555180;
 
   --nav--primary: #717171;
   --nav--hover: #5d5d5d;
+}
+
+a {
+  color: var(--clr--accent--500);
 }
 
 h2 {
