@@ -10,18 +10,18 @@ const Navbar = () => {
       </div>
       <nav>
         <ul className="nav-container">
-          <li className="nav-item">
+          <li className="nav-item" tabIndex={0}>
             <a href="https://www.linkedin.com/in/gusberinger/">LinkedIn</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" tabIndex={0}>
             <a href="https://www.github.com/gusberinger">Github</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" tabIndex={0}>
             <a href={pdf} download="resume.pdf">
               Resume
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" tabIndex={0}>
             <a href="mailto:gusberinger@gmail.com">CONTACT</a>
           </li>
         </ul>
