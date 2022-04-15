@@ -66,12 +66,22 @@
 
 :root {
   --ff-primary: "Metropolis";
+  --clr--primary--400: #242424;
+  --clr--accent--400: #434343;
+  --clr--accent--500: #555180;
+
+  --nav--primary: #717171;
+  --nav--hover: #5d5d5d;
+}
+
+a {
+  color: var(--clr--accent--500);
 }
 
 h2 {
   margin: 0;
   margin-bottom: 0.5em;
-  color: #434343;
+  color: var(--clr--accent--400);
 }
 
 h3 {
@@ -119,7 +129,7 @@ footer,
 section,
 header {
   margin-inline: auto;
-  max-width: 65rem;
+  max-width: 70rem;
   padding-block: 1vh;
 }
 

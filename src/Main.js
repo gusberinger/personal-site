@@ -7,10 +7,15 @@ import movieList from "./MovieList.js";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
+
+const today = () => {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return JSON.stringify(today);
+}
+
 const selectMovie = () => {
-  let now = new Date();
-  let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  let rng = seedrandom(today);
+  let rng = seedrandom(today());
   let n = Math.floor(rng() * movieList.length);
   return movieList[n];
 };
