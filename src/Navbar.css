@@ -77,11 +77,6 @@ nav a {
   transform: scaleX(1);
 }
 
-.col p {
-  margin-top: 0;
-  line-height: 2;
-}
-
 @media all and (max-width: 630px) {
   .nav-container {
     flex-direction: column;

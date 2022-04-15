@@ -48,8 +48,7 @@ const Main = () => {
       <section>
         <div className="container">
           <h2>Projects</h2>
-          <div className="row">
-            <div className="col">
+          <div className="item-container">
               <div className="item">
                 <h3>WikiNetworks</h3>
                 <p>
@@ -57,20 +56,18 @@ const Main = () => {
                 </p>
               </div>
               <div className="item">
-                <h3>Smiter</h3>
-                <p>
-                  React App that uses form data to automatically roll damage for
-                  Palladins in the board game D&D. <a href="https://smiter.gusberinger.com/">Link</a>
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div className="item">
                 <h3>Letterboxd-Convert</h3>
                 <p>
                   Python package that converts list of movies on Letterboxd.com,
                   to list of IMDb ids. The lists are downloaded asynchronous and
                   cached in a local database. <a href="https://github.com/letterboxd-convert">Link</a>
+                </p>
+              </div>
+              <div className="item">
+                <h3>Smiter</h3>
+                <p>
+                  Simple React App that uses form data to automatically roll damage for
+                  Palladins in the board game D&D. Form settings are saved to session storage. <a href="https://smiter.gusberinger.com/">Link</a>
                 </p>
               </div>
               <div className="item">
@@ -81,7 +78,6 @@ const Main = () => {
                   package in R. <a href="https://safeu.gusberinger.com">Link</a>
                 </p>
               </div>
-            </div>
           </div>
         </div>
       </section>
