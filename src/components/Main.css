@@ -5,63 +5,63 @@
   font-family: "Metropolis";
   font-weight: 100;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-Thin.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-Thin.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 200;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-ExtraLight.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-ExtraLight.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 300;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-Light.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-Light.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 400;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-Regular.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-Regular.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 500;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-Medium.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-Medium.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 600;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-SemiBold.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-SemiBold.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 700;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-Bold.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-Bold.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 800;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-ExtraBold.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-ExtraBold.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Metropolis";
   font-weight: 900;
   src: local("Metropolis"),
-    url(./fonts/Metrolopis/Metropolis-Black.otf) format("opentype");
+    url(../fonts/Metrolopis/Metropolis-Black.otf) format("opentype");
 }
 
 :root {
