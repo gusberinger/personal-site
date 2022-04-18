@@ -1,7 +1,7 @@
 import React from "react";
 import seedrandom from "seedrandom";
 import "./Main.css";
-import waters from "./images/waters.jpeg";
+import waters from "../images/waters.jpeg";
 import Movie from "./Movie";
 import movieList from "./MovieList.js";
 import Footer from "./Footer";

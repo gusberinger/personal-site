@@ -1,5 +1,5 @@
 {
-  "name": "third_page",
+  "name": "personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "dotenv": "^16.0.0",
+    "gatsby": "^4.12.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
@@ -14,10 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "gatsby develop -p 3333 -o",
+    "build": "gatsby build"
   },
   "eslintConfig": {
     "extends": [
