@@ -8,7 +8,7 @@ const Movie = ({ tconst }) => {
   }, [tconst]);
 
   async function getData(tconst) {
-    let url = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API}&i=${tconst}`;
+    let url = `https://www.omdbapi.com/?apikey=${process.env.GATSBY_OMDB_API}&i=${tconst}`;
     const response = await fetch(url);
     const data = await response.json();
     const { Title, Year } = data;
